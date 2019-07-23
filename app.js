@@ -7,3 +7,11 @@ if (score >= 80) {
 }if (int <=49 && int >=30) {
   console.log(`${score}は30点以上なので残念です`);
 }
+
+for (let i = 1; i<=30; i++){
+  if (i % 3 ==0) {
+    console.log ('crazy');
+  }else{
+    console.log(i);
+  }
+}
